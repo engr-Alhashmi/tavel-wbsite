@@ -1,0 +1,79 @@
+#hero {
+  height: 800px;
+  background-image: url(/images/places/ocean.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+#hero-content h1 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+#hero-content p {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+#hero-content a {
+  text-decoration: none;
+  color: black;
+  background-color: yellow;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+#hero-content a:hover {
+  background-color: rgb(220, 220, 3);
+}
+#highlight {
+  padding: 24px;
+  background: linear-gradient(180deg, rgb(157, 240, 235), rgb(227, 255, 253));
+}
+#highlight h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+#Distinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.Distination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+.Distination p {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.Distination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+}
+.Distination strong {
+  color: rgb(6, 122, 43);
+}
